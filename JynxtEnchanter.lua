@@ -16,3 +16,11 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/dfadecec4b8a6d
 task.wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheArexH4CKER/enchntchcker/refs/heads/main/EnchntChcker.lua"))()
 
+spawn(function()
+    while true do
+        pcall(function()
+            game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Mailbox: Claim All"):InvokeServer()
+        end)
+        task.wait(600)
+    end
+end)
