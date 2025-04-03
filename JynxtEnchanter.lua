@@ -21,6 +21,6 @@ spawn(function()
         pcall(function()
             game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Mailbox: Claim All"):InvokeServer()
         end)
-        task.wait(600)
+        task.wait(60)
     end
 end)
