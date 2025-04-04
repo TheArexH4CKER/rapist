@@ -6,8 +6,7 @@ getgenv().Settings = {
     ["Require All Enchants"] = true,
     ["Enchants"] = {
         ["Power Ball"] = {Tier = 5},
-        ["Diamond Farmer"] = {Tier = 3, HigherTiers = true},
-        ["Fortune"] = {Tier = 5},
+        ["Diamond Farmer"] = {Tier = 5},
     },
     
     [[ Created by System Exodus // Jxnt ]]
